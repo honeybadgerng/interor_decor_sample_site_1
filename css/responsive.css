@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+
+	Template Name :  Fiked - Interior Design Bootstrap 5 Theme
+	Author : Rainbow Design
+	
+*/
+
+
+/* Medium Devices, Desktops */
+@media (max-width: 991px) {
+.navigation .navbar .navbar-nav > .nav-item {
+	margin-right: 10px;
+}
+.navigation .navbar-brand {
+	margin-right: 0;
+}
+.header-upper .header-call-us span {
+	font-size: 14px;
+}
+.header-social a i {
+	width: 16px;
+}
+.navigation .navbar-nav .nav-link {
+	font-size: 12px;
+}
+.call-to-action-section p {
+	margin-bottom: 30px !important;
+}
+}
+
+/* Small Devices, Tablets */
+@media (max-width: 767px) {
+.header-upper {
+	text-align: center;
+	padding: 10px 0px;
+}
+.header-upper .header-call-us {
+	float: none;
+	margin-top: 8px;
+	display:inline-block;
+}
+.header-upper ul {
+	text-align: center;
+}
+.header-upper ul li {
+	border-left: 0px;
+	padding: 0px 10px;
+}
+.header-upper ul li:last-child {
+	border-right: 0px;
+}
+.navigation {
+	padding: 10px 0px;
+}
+.slider .carousel-caption h2{
+	font-size:30px;
+}
+.single-about .img-holder {
+	margin-top: 15px;
+}
+.filter1 li span {
+	padding: 10px 10px;
+	font-size: 12px;
+}
+.portfolio-item .box-content {
+	margin-bottom: 26px;
+}
+.portfolio-item:hover .social {
+	margin: 38px 0 0px;
+}
+.footer h1 {
+	line-height: 78px;
+	margin-bottom: 40px;
+}
+.navigation .navbar .navbar-nav > .nav-item .nav-link {
+	padding: 10px 0px;
+}
+.navigation .navbar .navbar-nav > .nav-item.search a:before {
+	left: 0px;
+}
+.navigation .navbar .navbar-nav > .nav-item.search {
+	padding-left: 15px;
+}
+.sidebar-wrapper .single-sidebar.tag-box {
+	margin-bottom: 40px;
+}
+.blog-single-social {
+	width: 100%;
+	text-align: left !important;
+	margin-top: 15px;
+}
+.comments-block ul li ul {
+	margin-left: 0px;
+}
+.call-us-widget {
+	margin-bottom: 30px;
+}
+.singllefadds p {
+	line-height: 18px;
+}
+.header-social a i {
+	width: 25px;
+}
+.team-item img{
+	width:100%;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media (max-width: 640px) {
+.header-upper ul li {
+	width:100%;
+	padding: 0px 0px 0px 0px;
+}
+.header-upper ul li:first-child{
+	padding-bottom:8px;
+}
+.slider .carousel-control-prev {
+	left: 5px;
+}
+.slider .carousel-control-next {
+	right: 5px;
+}
+.slider .carousel-caption h2 {
+	font-size: 12px;
+}
+.slider .carousel-control-next, .slider .carousel-control-prev {
+	font-size: 12px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+.slider .carousel-caption p {
+	display: none;
+}
+.slider .carousel-caption .btn-style-1, .slider .carousel-caption .btn-style-2 {
+	padding: 6px 10px 6px 10px;
+	font-size: 10px;
+}
+.footer h1 {
+	font-size: 20px;
+	line-height: 22px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.section-title .title-text{
+	font-size:40px;
+}
+.footer .widget {
+	display: inline-block;
+}
+.footer .title, .footer h1 {
+	text-align: left;
+}
+.filter1 li {
+	margin-right: 0px !important;
+}
+.filter1 li span {
+	padding: 8px 4px;
+	font-size: 10px;
+}
+.filter1 li span:after {
+	display: none;
+}
+.call-to-action-bg p {
+	color: #fff;
+	margin-bottom: 20px !important;
+}
+.call-to-action-section input[type="email"], .call-to-action-section input[type="submit"] {
+	width: 100%;
+}
+.call-to-action-section input[type="submit"] {
+	margin: 0 0px 0 0px;
+}
+}
